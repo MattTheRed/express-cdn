@@ -332,6 +332,7 @@ var options = {
   , ssl        : false
   , production : true
   , logger     : winston.info
+  , uploadAssets: true // If you are running this on multiple servers, only run with this option once
 };
 
 // Initialize the CDN magic
